@@ -108,6 +108,10 @@ p {
   h3 {
     font-size: 18px;
   }
+
+  p {
+    font-size: small;
+  }
   .primary-link {
     font-size: small;
   }
