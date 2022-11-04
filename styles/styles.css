@@ -1,26 +1,24 @@
 :root {
-  --primary-color: #f18c8e;
-  --secondary-color: #f1d1b5;
-  --accent-color: #305f72;
+  --primary-color: #9a8194;
+  --secondary-color: #c6a9a3;
+  --third-color: #ebd8b7;
+  --accent-color: #99bbad;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-}
-
-.navbar-brand {
-  color: var(--primary-color);
 }
 
 body {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 h1 {
   font-size: 96px;
-  color: var(--accent-color);
+  color: var(--primary-color);
 }
 
 h2 {
   font-size: 48px;
-  color: var(--accent-color);
+  color: var(--primary-color);
 }
 
 h3 {
@@ -32,6 +30,10 @@ p {
   padding: 20px;
   font-size: 18px;
   line-height: 1.5;
+}
+
+.navbar-brand {
+  color: var(--primary-color);
 }
 
 .navigation-links {
@@ -50,22 +52,23 @@ p {
 }
 
 .contact-link {
-  background: var(--primary-color);
+  background: var(--accent-color);
   box-shadow: var(--box-shadow);
-  color: whitesmoke;
+  color: #fffdf7;
 }
 
 .contact-link:hover {
-  color: var(--secondary-color);
+  color: var(--third-color);
 }
 
 .about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 
 .about-link:hover {
-  color: var(--secondary-color);
+  color: var(--third-color);
+  border: 1px solid var(--third-color);
 }
 
 .primary-link {
@@ -73,13 +76,13 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  background: var(--primary-color);
+  background: var(--accent-color);
   box-shadow: var(--box-shadow);
-  color: whitesmoke;
+  color: #fffdf7;
 }
 
 .primary-link:hover {
-  color: var(--secondary-color);
+  color: var(--third-color);
 }
 
 .email-link {
@@ -91,6 +94,5 @@ p {
 }
 
 .email-link:hover {
-  text-decoration: underline;
-  color: var(--secondary-color);
+  color: var(--accent-color);
 }
