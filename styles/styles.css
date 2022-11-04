@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #f18c8e;
+  --secondary-color: #f1d1b5;
+  --accent-color: #305f72;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand {
+  color: var(--primary-color);
+}
+
+body {
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 96px;
+  color: var(--accent-color);
+}
+
+h2 {
+  font-size: 48px;
+  color: var(--accent-color);
+}
