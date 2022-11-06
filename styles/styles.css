@@ -116,6 +116,10 @@ img {
   p {
     font-size: small;
   }
+
+  img {
+    margin-bottom: 10px;
+  }
   .primary-link {
     font-size: small;
   }
