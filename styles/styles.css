@@ -108,6 +108,7 @@ img {
   }
   h2 {
     font-size: 24px;
+    text-align: center;
   }
   h3 {
     font-size: 18px;
@@ -115,6 +116,7 @@ img {
 
   p {
     font-size: small;
+    text-align: center;
   }
 
   img {
@@ -122,5 +124,8 @@ img {
   }
   .primary-link {
     font-size: small;
+    text-align: center;
+    margin: auto;
+    display: block;
   }
 }
